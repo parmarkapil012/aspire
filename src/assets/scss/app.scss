@@ -1,20 +1,28 @@
 #app {
-    font-family: Verdana, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-  }
-  $primary: #325BAF;
-  $primary-light: #eff6f5;
-  $secondary: #f5f9ff;
-  $tab-color: #f5f9ff;
-  .text-left {
-    text-align: left;
-  }
-  .text-right {
-    text-align: right;
-  }
-  .text-center {
-    text-align: center;
-  }
+  font-family: Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+$primary: #325baf;
+$primary-light: #eff6f5;
+$secondary: #f5f9ff;
+$tab-color: #f5f9ff;
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+$theme-colors: ();
+$theme-colors: map-merge(
+  (
+    "primary": $primary,
+    "secondary": $secondary,
+  ),
+  $theme-colors
+);

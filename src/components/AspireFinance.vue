@@ -39,7 +39,8 @@
                     class="123"
                     img-blank
                     img-alt="Blank image"
-                    img-height="250"
+                    img-height="230"
+                    img-width="480"
                   >
                     <div class="debit-card">
                       <div class="img-logo">
@@ -399,13 +400,6 @@ export default class AspireFinance extends Vue {
 }
 </script>
 
-<style>
-.carousel-caption {
-  right: 0;
-  left: 0;
-  bottom: unset;
-  top: 50%;
-  transform: translateY(-50%);
-  padding: 0;
-}
+<style style="scss">
+
 </style>
